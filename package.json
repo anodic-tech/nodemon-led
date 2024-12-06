@@ -1,0 +1,21 @@
+{
+  "name": "nodemon-led",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/parser-readline": "^12.0.0",
+    "midi": "^2.0.0",
+    "serialport": "^12.0.0",
+    "web-midi": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/midi": "^2.0.3",
+    "@types/serialport": "^8.0.5"
+  }
+}
